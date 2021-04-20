@@ -3,6 +3,10 @@
   email =
 [includeIf "gitdir:~/Workspace/fs/"]
   path = ~/.config/git/.gitconfig-fs
+[includeIf "gitdir:~/Workspace/monkeyeveryday/"]
+  path = ~/.config/git/.gitconfig-monkeyeveryday
+[includeIf "gitdir:~/Workspace/cleverse/"]
+  path = ~/.config/git/.gitconfig-cleverse
 [core]
   editor = nvim
   excludesfile = ~/.config/git/.gitignore
