@@ -1,0 +1,15 @@
+[user]
+  name =
+  email =
+[includeIf "gitdir:~/Workspace/fs/"]
+  path = ~/.config/git/.gitconfig-fs
+[core]
+  editor = nvim
+  excludesfile = ~/.config/git/.gitignore
+[credential]
+  helper = osxkeychain
+  useHttpPath = true
+[init]
+  defaultBranch = main
+[pull]
+  ff = only
