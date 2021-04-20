@@ -1,0 +1,10 @@
+alias fs="cd ~/Workspace/fs"
+alias me="cd ~/Workspace/monkeyeveryday"
+alias dotfiles="cd ~/Workspace/.dot"
+alias vim="nvim"
+alias gd="git --no-pager diff"
+alias wf="cd .github/workflows"
+alias dcp="docker-compose"
+alias please='sudo $(fc -ln -1)'
+source "/usr/local/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/path.zsh.inc"
+source "/usr/local/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/completion.zsh.inc"
