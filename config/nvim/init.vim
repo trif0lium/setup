@@ -69,6 +69,10 @@ Plug 'neoclide/coc.nvim', {'branch': 'release'}
   nnoremap <silent> K :call <SID>show_documentation()<CR>
   inoremap <silent><expr> <cr> pumvisible() ? coc#_select_confirm() : "\<C-g>u\<CR>\<c-r>=coc#on_enter()\<CR>"
 
+  Plug 'neoclide/coc-prettier', {'do': 'yarn install --frozen-lockfile'}
+  Plug 'neoclide/coc-eslint', {'do': 'yarn install --frozen-lockfile'}
+  Plug 'neoclide/coc-tsserver', {'do': 'yarn install --frozen-lockfile'}
+
 call plug#end()
 
 if exists('+termguicolors')
