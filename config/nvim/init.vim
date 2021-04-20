@@ -6,6 +6,8 @@ set expandtab
 set number
 set ruler
 
+let mapleader = ";"
+
 " Use tab for trigger completion with characters ahead and navigate.
 " NOTE: Use command ':verbose imap <tab>' to make sure tab is not mapped by
 " other plugin before putting this into your config.
@@ -34,6 +36,17 @@ endfunction
 nnoremap <silent> K :call <SID>show_documentation()<CR>
 
 inoremap <silent><expr> <cr> pumvisible() ? coc#_select_confirm() : "\<C-g>u\<CR>\<c-r>=coc#on_enter()\<CR>"
+
+function! s:find_files()
+    let git_dir = system('git rev-parse --show-toplevel 2> /dev/null')[:-2]
+    if git_dir != ''
+        execute 'GFiles' git_dir
+    else
+        execute 'Files'
+    endif
+endfunction
+command! ProjectFiles execute s:find_files()
+nnoremap <leader>p :ProjectFiles<CR>
 
 call plug#begin('~/.vim/plugged')
   Plug 'sheerun/vim-polyglot'
