@@ -46,7 +46,7 @@ function! s:find_files()
     endif
 endfunction
 command! ProjectFiles execute s:find_files()
-nnoremap <leader>p :ProjectFiles<CR>
+nnoremap <leader>g :ProjectFiles<CR>
 
 call plug#begin('~/.vim/plugged')
   Plug 'sheerun/vim-polyglot'
