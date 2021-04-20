@@ -15,7 +15,6 @@ call plug#begin('~/.vim/plugged')
 Plug 'sheerun/vim-polyglot'
 
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
-
   function! s:find_files()
       let git_dir = system('git rev-parse --show-toplevel 2> /dev/null')[:-2]
       if git_dir != ''
@@ -28,7 +27,6 @@ Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
   nnoremap <leader>g :ProjectFiles<CR>
 
 Plug 'easymotion/vim-easymotion'
-
   nmap s <Plug>(easymotion-s2)
   nmap t <Plug>(easymotion-t2)
 
@@ -43,7 +41,6 @@ Plug 'pineapplegiant/spaceduck', { 'branch': 'main' },
 Plug 'vim-airline/vim-airline'
 
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
-
   " Use tab for trigger completion with characters ahead and navigate.
   " NOTE: Use command ':verbose imap <tab>' to make sure tab is not mapped by
   " other plugin before putting this into your config.
@@ -73,7 +70,6 @@ Plug 'neoclide/coc.nvim', {'branch': 'release'}
   inoremap <silent><expr> <cr> pumvisible() ? coc#_select_confirm() : "\<C-g>u\<CR>\<c-r>=coc#on_enter()\<CR>"
 
 call plug#end()
-
 
 if exists('+termguicolors')
   let &t_8f = "\<Esc>[38;2;%lu;%lu;%lum"
