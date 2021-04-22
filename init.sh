@@ -12,6 +12,4 @@ sh ./asdf.sh
 sh ./.macos
 
 # Link.
-cd $(dirname $0)
-ln -s $(pwd)/.gitconfig ~/.gitconfig
-ln -s $(pwd)/config ~/.config
+sh ./link.sh
