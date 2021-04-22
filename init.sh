@@ -3,8 +3,6 @@
 # Install Homebrew dependencies.
 brew bundle
 
-echo -e "\n. $(brew --prefix asdf)/asdf.sh" >> ${ZDOTDIR:-~}/.zshrc
-
 # Install packages with `asdf`.
 sh ./asdf.sh
 
