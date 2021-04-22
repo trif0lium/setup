@@ -12,3 +12,6 @@ ln -s $(pwd)/.zshrc ~/.zshrc
 
 # asdf
 ln -s $(pwd)/.tool-versions ~/.tool-versions
+
+# .functions
+ln -s $(pwd)/.functions ~/.functions
