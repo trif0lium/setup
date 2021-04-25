@@ -44,6 +44,8 @@ Plug 'pineapplegiant/spaceduck', { 'branch': 'main' },
 Plug 'vim-airline/vim-airline'
 
 Plug 'rhysd/accelerated-jk'
+  nmap j <Plug>(accelerated_jk_gj)
+  nmap k <Plug>(accelerated_jk_gk)
 
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
   " Use tab for trigger completion with characters ahead and navigate.
