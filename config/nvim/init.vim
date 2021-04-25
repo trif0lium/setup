@@ -43,6 +43,8 @@ Plug 'pineapplegiant/spaceduck', { 'branch': 'main' },
 
 Plug 'vim-airline/vim-airline'
 
+Plug 'rhysd/accelerated-jk'
+
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
   " Use tab for trigger completion with characters ahead and navigate.
   " NOTE: Use command ':verbose imap <tab>' to make sure tab is not mapped by
