@@ -44,6 +44,8 @@ Plug 'pineapplegiant/spaceduck', { 'branch': 'main' },
 
 Plug 'vim-airline/vim-airline'
 
+Plug 'tpope/vim-surround'
+
 Plug 'rhysd/accelerated-jk'
   nmap j <Plug>(accelerated_jk_gj)
   nmap k <Plug>(accelerated_jk_gk)
