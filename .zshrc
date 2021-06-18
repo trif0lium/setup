@@ -17,3 +17,4 @@ source "/usr/local/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/path.zsh.in
 source "/usr/local/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/completion.zsh.inc"
 . /usr/local/opt/asdf/asdf.sh
 source "/Users/$(whoami)/.functions"
+BROWSER=none
