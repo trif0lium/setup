@@ -88,6 +88,7 @@ let g:coc_global_extensions = [
       \'coc-tsserver',
       \'coc-prettier',
       \'coc-sourcekit',
+      \'coc-explorer',
       \]
 
 if exists('+termguicolors')
