@@ -55,7 +55,7 @@ Plug 'tpope/vim-surround'
 
 Plug 'gfontenot/vim-xcode'
 
-Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
+Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries', 'for': 'go' }
 
 Plug 'rhysd/accelerated-jk'
   nmap j <Plug>(accelerated_jk_gj)
