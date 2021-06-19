@@ -55,6 +55,8 @@ Plug 'tpope/vim-surround'
 
 Plug 'gfontenot/vim-xcode'
 
+Plug 'unblevable/quick-scope'
+
 Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries', 'for': 'go' }
 
 Plug 'rhysd/accelerated-jk'
@@ -123,3 +125,5 @@ nnoremap <C-j> <C-w>j
 nnoremap <C-k> <C-w>k
 nnoremap <C-l> <C-w>l
 colorscheme spaceduck
+
+let g:qs_highlight_on_keys = ['f', 'F']
