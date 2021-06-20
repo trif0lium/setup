@@ -100,6 +100,7 @@ let g:coc_global_extensions = [
       \'coc-prettier',
       \'coc-sourcekit',
       \'coc-explorer',
+      \'coc-go',
       \]
 
 nnoremap <leader>e :CocCommand explorer<CR>
