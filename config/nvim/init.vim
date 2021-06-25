@@ -43,8 +43,6 @@ Plug 'easymotion/vim-easymotion'
 
 Plug 'Yggdroot/indentLine'
 
-Plug 'jiangmiao/auto-pairs'
-
 Plug 'ntpeters/vim-better-whitespace'
 
 Plug 'pineapplegiant/spaceduck', { 'branch': 'main' },
