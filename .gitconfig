@@ -10,8 +10,8 @@
 [core]
   editor = nvim
   excludesfile = ~/.config/git/.gitignore
-[credential]
-  helper = osxkeychain
+[credential "https://github.com"]
+  helper = !gh auth git-credential
   useHttpPath = true
 [init]
   defaultBranch = main
