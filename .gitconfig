@@ -12,7 +12,6 @@
   excludesfile = ~/.config/git/.gitignore
 [credential "https://github.com"]
   helper = !gh auth git-credential
-  useHttpPath = true
 [init]
   defaultBranch = main
 [pull]
