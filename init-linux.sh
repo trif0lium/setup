@@ -2,6 +2,9 @@
 
 brew bundle
 
+# Install Oh My Zsh.
+yes | sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+
 # Install packages with `asdf`.
 sh ./asdf.sh
 
