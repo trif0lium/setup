@@ -1,5 +1,6 @@
 {
   "redirects": [
-    { "source": "/", "destination": "/install.sh", "permanent": true }
+    { "source": "/", "destination": "/install.sh", "permanent": true },
+    { "source": "/linux", "destination": "/linux.sh", "permanent": true }
   ]
 }
