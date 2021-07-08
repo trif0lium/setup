@@ -51,7 +51,7 @@ Plug 'vim-airline/vim-airline'
 
 Plug 'tpope/vim-surround'
 
-Plug 'gfontenot/vim-xcode'
+Plug 'LunarWatcher/auto-pairs', { 'tag': '*' }
 
 Plug 'unblevable/quick-scope'
 
