@@ -5,7 +5,8 @@ plugins=(git)
 source $ZSH/oh-my-zsh.sh
 alias fs="cd ~/Workspace/fs"
 alias me="cd ~/Workspace/monkeyeveryday"
-alias cl="cd ~/Workspace/cleverse"
+alias se="cd ~/Workspace/fs/seniorproj"
+alias k="kubectl"
 alias dotfiles="cd ~/Workspace/.dot"
 alias vim="nvim"
 alias gd="git --no-pager diff"
