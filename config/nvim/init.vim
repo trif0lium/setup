@@ -57,6 +57,8 @@ Plug 'unblevable/quick-scope'
 
 Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries', 'for': 'go' }
 
+Plug 'pantharshit00/vim-prisma'
+
 Plug 'rhysd/accelerated-jk'
   nmap j <Plug>(accelerated_jk_gj)
   nmap k <Plug>(accelerated_jk_gk)
