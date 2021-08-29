@@ -1,5 +1,5 @@
 {
-  "coc.preferences.formatOnSaveFiletypes": ["tsx", "typescriptreact", "typescript", "json", "css", "markdown"],
+  "coc.preferences.formatOnSaveFiletypes": ["tsx", "typescriptreact", "typescript", "json", "css", "markdown", "prisma"],
   "go.enable": true,
   "go.disable": {
     "workspaceFolders": false
