@@ -49,6 +49,8 @@ Plug 'pineapplegiant/spaceduck', { 'branch': 'main' },
 
 Plug 'vim-airline/vim-airline'
 
+Plug 'tpope/vim-commentary'
+
 Plug 'tpope/vim-surround'
 
 Plug 'LunarWatcher/auto-pairs', { 'tag': '*' }
