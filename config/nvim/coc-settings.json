@@ -1,6 +1,6 @@
 {
   "coc.preferences.formatOnSaveFiletypes": ["tsx", "typescriptreact", "typescript", "json", "css", "markdown", "prisma"],
-  "coc.preferences.jumpCommand": "drop",
+  "coc.preferences.jumpCommand": "vsplit",
   "go.enable": true,
   "go.disable": {
     "workspaceFolders": false
