@@ -59,8 +59,6 @@ Plug 'unblevable/quick-scope'
 
 Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries', 'for': 'go' }
 
-Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
-
 Plug 'rhysd/accelerated-jk'
   nmap j <Plug>(accelerated_jk_gj)
   nmap k <Plug>(accelerated_jk_gk)
