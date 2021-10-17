@@ -1,4 +1,4 @@
-" set cursorline
+set cursorline
 set nocompatible
 syntax on
 set tabstop=2
