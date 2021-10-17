@@ -1,4 +1,4 @@
-set cursorline
+" set cursorline
 set nocompatible
 syntax on
 set tabstop=2
@@ -56,6 +56,8 @@ Plug 'tpope/vim-surround'
 Plug 'LunarWatcher/auto-pairs', { 'tag': '*' }
 
 Plug 'unblevable/quick-scope'
+
+Plug 'ozkanonur/nimda.vim'
 
 Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries', 'for': 'go' }
 
@@ -130,6 +132,6 @@ nnoremap <C-h> <C-w>h
 nnoremap <C-j> <C-w>j
 nnoremap <C-k> <C-w>k
 nnoremap <C-l> <C-w>l
-colorscheme spaceduck
+colorscheme nimda
 
 let g:qs_highlight_on_keys = ['f', 'F']
