@@ -1,4 +1,4 @@
-set cursorline
+" set cursorline
 set nocompatible
 syntax on
 set tabstop=2
@@ -57,7 +57,7 @@ Plug 'LunarWatcher/auto-pairs', { 'tag': '*' }
 
 Plug 'unblevable/quick-scope'
 
-Plug 'rileytwo/kiss'
+Plug 'jacoborus/tender.vim'
 
 Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries', 'for': 'go' }
 
@@ -132,6 +132,6 @@ nnoremap <C-h> <C-w>h
 nnoremap <C-j> <C-w>j
 nnoremap <C-k> <C-w>k
 nnoremap <C-l> <C-w>l
-colorscheme kiss
+colorscheme tender
 
 let g:qs_highlight_on_keys = ['f', 'F']
