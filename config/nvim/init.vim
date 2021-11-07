@@ -204,20 +204,16 @@ local capabilities = require('cmp_nvim_lsp').update_capabilities(
 
 for _, lsp in ipairs(servers) do
   nvim_lsp[lsp].setup {
-    on_attach = on_attach,
-    flags = {
-      debounce_text_changes = 150,
-    },
     capabilities = capabilities
   }
 end
 EOF
 
 nnoremap  <silent> ;f <cmd>lua require('telescope.builtin').find_files()<cr>
-nnoremap  <silent> ;r <cmd>lua require('telescope.builtin').live_grep()<cr>
-nnoremap  <silent> ;b <cmd>lua require('telescope.builtin').file_browser()<cr>
-nnoremap <silent> \\ <cmd>Telescope buffers<cr>
-nnoremap <silent> ;; <cmd>Telescope help_tags<cr>
+" nnoremap  <silent> ;r <cmd>lua require('telescope.builtin').live_grep()<cr>
+" nnoremap  <silent> ;b <cmd>lua require('telescope.builtin').file_browser()<cr>
+" nnoremap <silent> \\ <cmd>Telescope buffers<cr>
+" nnoremap <silent> ;; <cmd>Telescope help_tags<cr>
 
 lua << EOF
 function telescope_buffer_dir()
