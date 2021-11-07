@@ -20,32 +20,9 @@ endif
 
 call plug#begin('~/.vim/plugged')
 
-Plug 'sheerun/vim-polyglot'
-
-Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
-
-Plug 'junegunn/fzf.vim'
-
-  function! s:find_files()
-      let git_dir = system('git rev-parse --show-toplevel 2> /dev/null')[:-2]
-      if git_dir != ''
-        execute 'GFiles' git_dir
-      else
-        execute 'Files'
-      endif
-  endfunction
-  command! ProjectFiles execute s:find_files()
-  nnoremap <leader>g :ProjectFiles<CR>
-
-Plug 'easymotion/vim-easymotion'
-  nmap s <Plug>(easymotion-s2)
-  nmap t <Plug>(easymotion-t2)
-
 Plug 'Yggdroot/indentLine'
 
 Plug 'ntpeters/vim-better-whitespace'
-
-Plug 'pineapplegiant/spaceduck', { 'branch': 'main' },
 
 Plug 'vim-airline/vim-airline'
 
@@ -55,11 +32,7 @@ Plug 'tpope/vim-surround'
 
 Plug 'LunarWatcher/auto-pairs', { 'tag': '*' }
 
-Plug 'unblevable/quick-scope'
-
 Plug 'jacoborus/tender.vim'
-
-Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries', 'for': 'go' }
 
 Plug 'rhysd/accelerated-jk'
   nmap j <Plug>(accelerated_jk_gj)
