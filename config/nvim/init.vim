@@ -21,22 +21,16 @@ endif
 call plug#begin('~/.vim/plugged')
 
 Plug 'Yggdroot/indentLine'
-
 Plug 'ntpeters/vim-better-whitespace'
-
 Plug 'vim-airline/vim-airline'
-
 Plug 'tpope/vim-commentary'
-
 Plug 'tpope/vim-surround'
-
 Plug 'LunarWatcher/auto-pairs', { 'tag': '*' }
-
 Plug 'jacoborus/tender.vim'
-
 Plug 'rhysd/accelerated-jk'
   nmap j <Plug>(accelerated_jk_gj)
   nmap k <Plug>(accelerated_jk_gk)
+Plug 'neovim/nvim-lspconfig'
 
 call plug#end()
 
@@ -61,5 +55,3 @@ nnoremap <C-j> <C-w>j
 nnoremap <C-k> <C-w>k
 nnoremap <C-l> <C-w>l
 colorscheme tender
-
-let g:qs_highlight_on_keys = ['f', 'F']
