@@ -26,7 +26,7 @@ Plug 'vim-airline/vim-airline'
 Plug 'tpope/vim-commentary'
 Plug 'tpope/vim-surround'
 Plug 'windwp/nvim-autopairs'
-Plug 'jacoborus/tender.vim'
+Plug 'bluz71/vim-moonfly-colors'
 Plug 'rhysd/accelerated-jk'
   nmap j <Plug>(accelerated_jk_gj)
   nmap k <Plug>(accelerated_jk_gk)
@@ -69,7 +69,7 @@ nnoremap <C-h> <C-w>h
 nnoremap <C-j> <C-w>j
 nnoremap <C-k> <C-w>k
 nnoremap <C-l> <C-w>l
-colorscheme tender
+colorscheme moonfly
 
 lua <<EOF
 require('nvim-autopairs').setup({
