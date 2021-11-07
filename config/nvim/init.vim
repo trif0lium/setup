@@ -41,6 +41,8 @@ Plug 'tami5/lspsaga.nvim', { 'branch': 'nvim51' }
 Plug 'nvim-lua/plenary.nvim'
 Plug 'nvim-telescope/telescope.nvim'
 Plug 'onsails/lspkind-nvim'
+Plug 'nvim-lua/popup.nvim'
+Plug 'crispgm/nvim-go'
 
 call plug#end()
 
