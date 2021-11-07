@@ -71,6 +71,10 @@ nnoremap <C-l> <C-w>l
 colorscheme tender
 
 lua <<EOF
+require('nvim-autopairs').setup{}
+EOF
+
+lua <<EOF
 require('go').setup({
     -- auto commands
     auto_format = true,
@@ -150,7 +154,7 @@ lua <<EOF
       { name = 'buffer' },
     }),
     formatting = {
-      format = lspkind.cmp_format({with_text = false, maxwidth = 50})
+      format = lspkind.cmp_format({with_text = true, maxwidth = 50})
     }
   })
 
