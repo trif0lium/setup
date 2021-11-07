@@ -71,7 +71,9 @@ nnoremap <C-l> <C-w>l
 colorscheme tender
 
 lua <<EOF
-require('nvim-autopairs').setup{}
+require('nvim-autopairs').setup({
+  disable_filetype = { "TelescopePrompt" , "vim" },
+})
 EOF
 
 lua <<EOF
