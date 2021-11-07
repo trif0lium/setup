@@ -25,7 +25,7 @@ Plug 'ntpeters/vim-better-whitespace'
 Plug 'vim-airline/vim-airline'
 Plug 'tpope/vim-commentary'
 Plug 'tpope/vim-surround'
-Plug 'LunarWatcher/auto-pairs', { 'tag': '*' }
+Plug 'windwp/nvim-autopairs'
 Plug 'jacoborus/tender.vim'
 Plug 'rhysd/accelerated-jk'
   nmap j <Plug>(accelerated_jk_gj)
