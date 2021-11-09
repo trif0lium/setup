@@ -143,8 +143,8 @@ lua <<EOF
       ['<S-Tab>'] = function(fallback)
         if cmp.visible() then
           cmp.select_prev_item()
-        elseif luasnip.expand_or_jumpable() then
-          luasnip.expand_or_jump()
+        elseif luasnip.jumpable(-1) then
+          luasnip.jump(-1)
         else
           fallback()
         end
@@ -152,6 +152,7 @@ lua <<EOF
     },
     sources = cmp.config.sources({
       { name = 'nvim_lsp' },
+      { name = 'luasnip' },
     }, {
       { name = 'buffer' },
     }),
