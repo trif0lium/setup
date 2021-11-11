@@ -232,7 +232,7 @@ end
 EOF
 
 nnoremap  <silent> ;f <cmd>lua require('telescope.builtin').find_files()<cr>
-" nnoremap  <silent> ;r <cmd>lua require('telescope.builtin').live_grep()<cr>
+nnoremap  <silent> ;g <cmd>lua require('telescope.builtin').git_files()<cr>
 " nnoremap  <silent> ;b <cmd>lua require('telescope.builtin').file_browser()<cr>
 " nnoremap <silent> \\ <cmd>Telescope buffers<cr>
 " nnoremap <silent> ;; <cmd>Telescope help_tags<cr>
