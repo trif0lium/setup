@@ -112,6 +112,8 @@ EOF
 " inoremap <expr> <S-Tab> pumvisible() ? "\<C-p>" : "\<S-Tab>"
 
 lua <<EOF
+  vim.o.completeopt = 'menuone,noselect'
+
   local cmp = require'cmp'
   local lspkind = require'lspkind'
   local luasnip = require 'luasnip'
@@ -160,8 +162,6 @@ lua <<EOF
       format = lspkind.cmp_format({with_text = true, maxwidth = 50})
     }
   })
-
-  vim.cmd [[highlight! default link CmpItemKind CmpItemMenuDefault]]
 EOF
 
 lua <<EOF
