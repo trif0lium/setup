@@ -43,8 +43,8 @@ Plug 'nvim-telescope/telescope.nvim'
 Plug 'onsails/lspkind-nvim'
 Plug 'nvim-lua/popup.nvim'
 Plug 'crispgm/nvim-go'
-Plug 'saadparwaiz1/cmp_luasnip'
-Plug 'L3MON4D3/LuaSnip'
+Plug 'hrsh7th/cmp-vsnip'
+Plug 'hrsh7th/vim-vsnip'
 Plug 'kyazdani42/nvim-web-devicons'
 Plug 'prettier/vim-prettier', {
   \ 'do': 'yarn install',
