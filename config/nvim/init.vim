@@ -250,7 +250,6 @@ nnoremap  <silent> ;g <cmd>lua require('telescope.builtin').git_files()<cr>
 " nnoremap <silent> \\ <cmd>Telescope buffers<cr>
 " nnoremap <silent> ;; <cmd>Telescope help_tags<cr>
 
-lua << EOF
 function telescope_buffer_dir()
   return vim.fn.expand('%:p:h')
 end
