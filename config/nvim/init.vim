@@ -328,4 +328,4 @@ nnoremap  <silent> ;g <cmd>lua require('telescope.builtin').git_files()<cr>
 " nnoremap  <silent> ;b <cmd>lua require('telescope.builtin').file_browser()<cr>
 " nnoremap <silent> \\ <cmd>Telescope buffers<cr>
 " nnoremap <silent> ;; <cmd>Telescope help_tags<cr>
-
+autocmd BufWritePre <buffer> lua vim.lsp.buf.formatting_seq_sync()
