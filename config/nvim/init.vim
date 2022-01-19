@@ -6,6 +6,9 @@ set shiftwidth=2
 set expandtab
 set number
 set ruler
+set nobackup
+set nowritebackup
+set noswapfile
 
 let mapleader = " "
 
