@@ -1,5 +1,6 @@
 export ZSH="/Users/$(whoami)/.oh-my-zsh"
 export TERM="xterm-256color"
+export PATH="~/.local/bin:$PATH"
 ZSH_THEME="cypher"
 plugins=(git)
 source $ZSH/oh-my-zsh.sh
