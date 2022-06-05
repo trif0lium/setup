@@ -5,6 +5,7 @@ ln -s $(pwd)/config/git ~/.config/git
 
 ln -s $(pwd)/config/bat ~/.config/bat
 ln -s $(pwd)/config/nvim ~/.config/nvim
+ln -s $(pwd)/config/lvim ~/.config/lvim
 
 # .zshrc
 mv ~/.zshrc ~/.zshrc.copy
