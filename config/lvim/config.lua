@@ -18,6 +18,7 @@ lvim.builtin.alpha.active = true
 lvim.builtin.notify.active = true
 lvim.builtin.terminal.active = true
 lvim.builtin.gitsigns.active = true
+lvim.builtin.bufferline.active = false
 lvim.builtin.treesitter.ensure_installed = {
   "bash",
   "javascript",
