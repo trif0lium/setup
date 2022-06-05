@@ -40,4 +40,11 @@ lvim.plugins = {
   { "Yggdroot/indentLine" },
   { "ntpeters/vim-better-whitespace" },
   { "chriskempson/base16-vim" },
+  {
+    "crispgm/nvim-go",
+    config = function()
+      require('go').setup({})
+      require('lspconfig').gopls.setup({})
+    end
+  },
 }
