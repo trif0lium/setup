@@ -19,24 +19,24 @@ lvim.builtin.notify.active = true
 lvim.builtin.terminal.active = true
 lvim.builtin.gitsigns.active = true
 lvim.builtin.treesitter.ensure_installed = {
-	"bash",
-	"javascript",
-	"json",
-	"lua",
-	"python",
-	"typescript",
-	"yaml",
-	"go",
+  "bash",
+  "javascript",
+  "json",
+  "lua",
+  "python",
+  "typescript",
+  "yaml",
+  "go",
 }
 lvim.builtin.treesitter.ignore_install = { "haskell" }
-lvim.lsp.diagnostics.virtual_text = false
+lvim.lsp.diagnostics.virtual_text = true
 lvim.builtin.which_key.mappings["g"] = {
-	":Telescope git_files<CR>", ""
+  ":Telescope git_files<CR>", ""
 }
 
 lvim.plugins = {
-  {"lunarvim/colorschemes"},
-  {"Yggdroot/indentLine"},
-  {"ntpeters/vim-better-whitespace"},
-  {"chriskempson/base16-vim"},
+  { "lunarvim/colorschemes" },
+  { "Yggdroot/indentLine" },
+  { "ntpeters/vim-better-whitespace" },
+  { "chriskempson/base16-vim" },
 }
