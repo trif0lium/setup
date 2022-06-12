@@ -8,10 +8,14 @@ vim.api.nvim_command "set ruler"
 vim.api.nvim_command "set nobackup"
 vim.api.nvim_command "set nowritebackup"
 vim.api.nvim_command "set noswapfile"
+vim.cmd("set background=dark")
 vim.cmd("nnoremap Q <nop>")
 vim.cmd("nnoremap <esc> :noh<return><esc>")
 
 lvim.format_on_save = true
+vim.g.gruvbox_transparent_bg = 1
+vim.g.gruvbox_contrast_dark = "hard"
+vim.g.indentLine_setConceal = 0
 lvim.colorscheme = "gruvbox"
 lvim.leader = "space"
 lvim.builtin.alpha.active = true
