@@ -12,7 +12,7 @@ vim.cmd("nnoremap Q <nop>")
 vim.cmd("nnoremap <esc> :noh<return><esc>")
 
 lvim.format_on_save = true
-lvim.colorscheme = "base16-default-dark"
+lvim.colorscheme = "gruvbox"
 lvim.leader = "space"
 lvim.builtin.alpha.active = true
 lvim.builtin.terminal.active = true
@@ -44,4 +44,5 @@ lvim.plugins = {
   { "Yggdroot/indentLine" },
   { "ntpeters/vim-better-whitespace" },
   { "chriskempson/base16-vim" },
+  { "morhetz/gruvbox" },
 }
