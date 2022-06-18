@@ -13,6 +13,7 @@ vim.cmd("nnoremap Q <nop>")
 vim.cmd("nnoremap <esc> :noh<return><esc>")
 
 lvim.format_on_save = true
+lvim.transparent_window = true
 vim.g.gruvbox_transparent_bg = 1
 vim.g.gruvbox_contrast_dark = "hard"
 vim.g.indentLine_setConceal = 0
