@@ -48,6 +48,5 @@ lvim.plugins = {
   { "lunarvim/colorschemes" },
   { "Yggdroot/indentLine" },
   { "ntpeters/vim-better-whitespace" },
-  { "chriskempson/base16-vim" },
   { "morhetz/gruvbox" },
 }
