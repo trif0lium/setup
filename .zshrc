@@ -21,4 +21,3 @@ source "/usr/local/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/completion.
 . /usr/local/opt/asdf/libexec/asdf.sh
 source "/Users/$(whoami)/.functions"
 BROWSER=none
-eval "$(starship init zsh)"
