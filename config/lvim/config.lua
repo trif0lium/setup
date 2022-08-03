@@ -17,7 +17,7 @@ lvim.transparent_window = true
 vim.g.gruvbox_transparent_bg = 1
 vim.g.gruvbox_contrast_dark = "hard"
 vim.g.indentLine_setConceal = 0
-lvim.colorscheme = "gruvbox"
+lvim.colorscheme = "tempus_totus"
 lvim.leader = "space"
 lvim.builtin.alpha.active = true
 lvim.builtin.terminal.active = true
@@ -49,4 +49,5 @@ lvim.plugins = {
   { "Yggdroot/indentLine" },
   { "ntpeters/vim-better-whitespace" },
   { "morhetz/gruvbox" },
+  { "https://gitlab.com/protesilaos/tempus-themes-vim.git" }
 }
