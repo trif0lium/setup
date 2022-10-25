@@ -8,6 +8,6 @@ function tre() {
   tree -aC -I '.git|node_modules' --dirsfirst "$@"
 }
 
-function exp() {
-  export $(grep -v '^#' $@ | xargs)
+function gg() {
+  git checkout --track $(git branch -r | fzf)
 }
